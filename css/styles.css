@@ -21,7 +21,7 @@
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+
 }
 
 .container {
@@ -287,6 +287,11 @@ h6 {
 
 .item {
     background-color: var(--white-color);
+    
+}
+
+.feature-list .item + .item {
+    margin-left: 30px;
 }
 
 .name-title {
